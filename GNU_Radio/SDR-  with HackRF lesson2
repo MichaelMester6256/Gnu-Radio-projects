@@ -1,0 +1,19 @@
+1.Does the flowgraph behave differently if you remove the throttle block? (Connect the source directly to the sink.)
+
+
+2.Does the FFT sink correctly indicate the frequency produced by the source? What if the source and sink have different sample rates configured?
+
+3.What happens if you configure the signal source with various frequencies between 0 and 16k?
+
+
+4.What if you specify frequencies greater than 16k? Any idea why?
+
+
+5.What if you specify negative frequencies? Mathematically, is there a difference between cos(x) and cos(-x)?
+
+
+6.Does the plot indicate the presence of any frequencies other than the one produced by the source? (Hint: Use Autoscale or increase dB/Div.) What is the apparent amplitude of the noise? Why is there any noise at all?
+
+
+7.Try multiple signal sources added together. Are there any other interesting operations you could try?
+Try various waveforms (instead of cosine) in the signal source.

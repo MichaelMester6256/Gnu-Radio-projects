@@ -1,0 +1,27 @@
+Software Defined Radio with HackRF
+
+samp_rate = 10e6 or 10 million
+
+osmosdr_source = Hack Rf
+
+middle of FM band = 97.6e6
+
+
+to shift HackRf source muiltiply signal by signal source 
+
+set sig
+
+decimation is related to 
+
+200e3 is the with of a FM radio station
+
+
+WBFM = wide band FM
+
+quadrature rate = sample rate of input
+
+audio decimation = is that value that the block \\
+
+
+analog_wfm_rcv_1
+
